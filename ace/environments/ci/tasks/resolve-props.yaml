@@ -7,26 +7,47 @@ spec:
     - name: is-source-directory
   results:
     - name: is-project
+      description: is-project
     - name: is-application-name
+      description: is-application-name
     - name: is-release-name
+      description: is-release-name
     - name: is-configuration-keystore
+      description: is-configuration-keystore
     - name: is-configuration-truststore
+      description: is-configuration-truststore
     - name: is-configuration-setdbparms
+      description: is-configuration-setdbparms
     - name: is-configuration-serverconf
+      description: is-configuration-serverconf
     - name: is-configuration-policyproject
+      description: is-configuration-policyproject
     - name: is-configuration-loopbackdatasource
+      description: is-configuration-loopbackdatasource
     - name: mq-queue-name
+      description: mq-queue-name
     - name: mq-end-point-policy-file
+      description: mq-end-point-policy-file
     - name: registry-host
+      description: registry-host
     - name: previous-is-genenration
+      description: previous-is-genenration
     - name: previous-deployment-revision
+      description: previous-deployment-revision
     - name: endpoint-path
+      description: endpoint-path
     - name: is-configurations
+      description: is-configuration
     - name: is-license
+      description: is-license
     - name: is-license-use
+      description: is-license-use
     - name: is-service-endpoint-type
+      description: is-service-endpoint-type
     - name: is-version
+      description: is-version
     - name: is-base-image
+      description: is-base-image
   steps:
     - name: parse-source-properties
       image: mikefarah/yq:4.7.1
