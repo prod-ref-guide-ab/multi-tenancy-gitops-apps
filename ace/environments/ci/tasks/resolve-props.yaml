@@ -5,6 +5,7 @@ metadata:
 spec:
   params:
     - name: is-source-directory
+      description: is-source-directory
   results:
     - name: is-project
       description: is-project
