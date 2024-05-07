@@ -7,18 +7,22 @@ spec:
     - name: is-config-repo-url
       type: string
       description: "SSH url of Configuration repository, ex: git@github.com:ace-prod-ref/ace-config.git"
+      default: "git@github.com:prod-ref-guide-ab/ace-config.git"
 
     - name: is-infra-repo-url
       type: string
       description: "SSH url of Infrastructure repository, ex: git@github.com:ace-prod-ref/ace-infra.git"
+      default: "git@github.com:prod-ref-guide-ab/ace-infra.git"
 
     - name: git-ops-repo-url
       type: string
       description: "SSH url of GitOps repository, ex: git@github.com:ace-prod-ref/multi-tenancy-gitops-apps.git"
+      default: "git@github.com:prod-ref-guide-ab/multi-tenancy-gitops.git"
 
     - name: gitops-apps-repo-full-name
       type: string
       description: "Repo name of GitOps repository, in github.com, ex: ace-prod-ref/multi-tenancy-gitops-apps"
+      default: "prod-ref-guide-ab/multi-tenancy-gitops"
 
     - name: github-pr-title
       type: string
@@ -30,7 +34,7 @@ spec:
       description: "Body of pull request"
     - name: github-pr-token-secret-name
       type: string
-      default: cicd-acme
+      default: cicd-acme-ab
       description: "Personal access token for CICD bot user"
 
   workspaces:
