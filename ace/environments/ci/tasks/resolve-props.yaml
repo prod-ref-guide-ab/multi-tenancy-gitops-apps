@@ -98,6 +98,7 @@ spec:
         resolve_prop '.integrationServer.version' $(results.is-version.path)
         resolve_prop '.integrationServer.baseImage' $(results.is-base-image.path)
 
+        sleep 1000
     - name: resolve-ocp-properties
       image: quay.io/openshift/origin-cli:latest
       script: |
