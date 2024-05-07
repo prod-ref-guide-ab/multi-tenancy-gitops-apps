@@ -14,15 +14,15 @@ spec:
       description: "SSH url of Infrastructure repository, ex: git@github.com:ace-prod-ref/ace-infra.git"
       default: "git@github.com:prod-ref-guide-ab/ace-infra.git"
 
-    - name: git-ops-repo-url
+    - name: git-ops-apps-repo-url
       type: string
       description: "SSH url of GitOps repository, ex: git@github.com:ace-prod-ref/multi-tenancy-gitops-apps.git"
-      default: "git@github.com:prod-ref-guide-ab/multi-tenancy-gitops.git"
+      default: "git@github.com:prod-ref-guide-ab/multi-tenancy-gitops-apps.git"
 
     - name: gitops-apps-repo-full-name
       type: string
       description: "Repo name of GitOps repository, in github.com, ex: ace-prod-ref/multi-tenancy-gitops-apps"
-      default: "prod-ref-guide-ab/multi-tenancy-gitops"
+      default: "prod-ref-guide-ab/multi-tenancy-gitops-apps"
 
     - name: github-pr-title
       type: string
