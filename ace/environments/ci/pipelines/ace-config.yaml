@@ -150,6 +150,7 @@ spec:
           workspace: shared-workspace
         - name: ssh-directory
           workspace: gitops-repo-secret
+
     - name: create-pull-request
       taskRef:
         kind: Task
