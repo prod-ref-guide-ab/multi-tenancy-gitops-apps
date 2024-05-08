@@ -5,7 +5,7 @@ metadata:
 spec:
   storageClassName: ocs-storagecluster-cephfs
   accessModes:
-  - ReadWriteMany
+    - ReadWriteMany
   resources:
     requests:
       storage: 1Gi
