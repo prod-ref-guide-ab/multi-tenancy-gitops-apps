@@ -38,10 +38,10 @@ spec:
       type: string
       default: "Changes by Pipeline run: $(context.pipelineRun.name)"
       description: "Body of pull request"
-      
+
     - name: github-pr-token-secret-name
       type: string
-      default: cicd-acme
+      default: cicd-acme-ab
       description: "Personal access token for CICD bot user"
 
   workspaces:
